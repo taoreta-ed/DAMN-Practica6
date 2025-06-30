@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DAMNPractica6" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Colores primarios del tema oscuro (Guinda) -->
+        <item name="colorPrimary">#880E4F</item> <!-- Guinda oscuro -->
+        <item name="colorPrimaryVariant">#560027</item> <!-- Guinda más oscuro para la barra de estado -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- Texto blanco sobre el color primario -->
+
+        <!-- Colores secundarios (Gris oscuro o un acento sutil) -->
+        <item name="colorSecondary">#424242</item> <!-- Gris oscuro -->
+        <item name="colorSecondaryVariant">#1B1B1B</item> <!-- Gris más oscuro para variantes -->
+        <item name="colorOnSecondary">#FFFFFF</item> <!-- Texto blanco sobre el color secundario -->
+
+        <!-- Color de fondo y superficie -->
+        <item name="android:colorBackground">#121212</item> <!-- Fondo negro casi -->
+        <item name="colorSurface">#1E1E1E</item> <!-- Superficie gris oscuro -->
+        <item name="colorOnSurface">#FFFFFF</item> <!-- Texto blanco sobre la superficie -->
+
+        <!-- Color de error -->
+        <item name="colorError">#CF6679</item>
+        <item name="colorOnError">#000000</item>
+
+        <!-- Color de la barra de estado -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
