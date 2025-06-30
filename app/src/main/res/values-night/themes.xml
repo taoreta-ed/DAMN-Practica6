@@ -20,8 +20,6 @@
         <item name="colorError">#CF6679</item>
         <item name="colorOnError">#000000</item>
 
-        <!-- Color de la barra de estado -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
 </resources>

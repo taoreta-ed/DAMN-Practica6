@@ -70,6 +70,12 @@ dependencies {
     // Para usar Compose en Activity
     implementation("androidx.activity:activity-compose:1.7.0")
 
+    // Dependencia para iconos extendidos de Material Design (incluye LightMode y DarkMode)
+    implementation("androidx.compose.material:material-icons-extended")
+    // Para WebView en Jetpack Compose
+    implementation("com.google.accompanist:accompanist-webview:0.34.0") // O la versión más reciente
+
+
     // Dependencias de prueba
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
